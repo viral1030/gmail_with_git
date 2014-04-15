@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Gmail" verbose="10" parallel="false" thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	
+	<parameter name="selenium.browser" value="firefox" />
+	<parameter name="selenium.url" value="https://www.google.co.in" />
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun respective test. -->
+
+	<test name="Sending mail">
+		<classes>
+			<class name="com.gmail.verifications.Index">
+				<methods>
+					<include name="Gmail_login" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+ 		<!-- 
+	  <test name="flipkart_sign">
+		<classes>
+			<class name="com.flipkart.verification.Index">
+				<methods>
+					<include name="flipkart_sign" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 -->
+
+	<!-- <test name="flipkart_filter">
+		<classes>
+			<class name="com.flipkart.verification.Index">
+				<methods>
+					<include name="flipkart_filter" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 -->
+	
+	
+	
+	<!-- </test>
+	
+	<test name="facebook_post">
+	<parameter name="selenium.browser" value="firefox" />
+	<parameter name="selenium.url" value="https://www.facebook.com" />
+	    
+	    
+		
+		<classes>
+			<class name="com.v.verifications.Index">
+				<methods>
+					<include name="facebook_post" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="google">
+	<parameter name="selenium.browser" value="firefox" />
+	<parameter name="selenium.url" value="https://www.google.com" />
+	    
+		<classes>
+			<class name="com.v.verifications.Index">
+				<methods>
+					<include name="google_search" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+	
+	
+	
+</suite>

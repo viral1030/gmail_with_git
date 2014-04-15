@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br></br>Step 1:open Google.com]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 2:clcik on Gmail link ']]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 3:Enter the valid detail into form field   <br></br> Email: krazzyvir@gmail.com   <br></br> Password : 8518krazzyvir1933]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 4 : click on compose Button]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 5 : Enter The Detail for sending mail   <br>TO : viral103patel@gmail.com    </br>subject: automation    </br>Body :  this mail is send by automation script]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step 6: Click on send Button]]>
+    </line>
+  </reporter-output>
+  <suite name="Gmail" duration-ms="201452" started-at="2014-04-15T08:50:10Z" finished-at="2014-04-15T08:53:31Z">
+    <groups>
+    </groups>
+    <test name="Sending mail" duration-ms="201452" started-at="2014-04-15T08:50:10Z" finished-at="2014-04-15T08:53:31Z">
+      <class name="com.gmail.verifications.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="fetchSuiteConfiguration" is-config="true" duration-ms="7" started-at="2014-04-15T14:20:10Z" finished-at="2014-04-15T14:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e4365]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="setUp" is-config="true" duration-ms="76222" started-at="2014-04-15T14:20:10Z" finished-at="2014-04-15T14:21:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gmail.verifications.Index.Gmail_login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Gmail_login()[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="Gmail_login" duration-ms="124376" started-at="2014-04-15T14:21:26Z" finished-at="2014-04-15T14:23:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br></br>Step 1:open Google.com]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 2:clcik on Gmail link ']]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 3:Enter the valid detail into form field   <br></br> Email: krazzyvir@gmail.com   <br></br> Password : 8518krazzyvir1933]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 4 : click on compose Button]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 5 : Enter The Detail for sending mail   <br>TO : viral103patel@gmail.com    </br>subject: automation    </br>Body :  this mail is send by automation script]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step 6: Click on send Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Gmail_login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="tearDown" is-config="true" duration-ms="816" started-at="2014-04-15T14:23:30Z" finished-at="2014-04-15T14:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Gmail_login status=SUCCESS method=Index.Gmail_login()[pri:0, instance:com.gmail.verifications.Index@87a5cc] output=<br></br>Step 1:open Google.com]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.verifications.Index -->
+    </test> <!-- Sending mail -->
+  </suite> <!-- Gmail -->
+</testng-results>
