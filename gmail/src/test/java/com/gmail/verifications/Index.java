@@ -14,7 +14,7 @@ public class Index extends SeleniumInit
 	/*helllooo*/
 	Common common = new Common(driver);
 
-	/*****bhello again*****/
+	/*****hello again*****/
 	@Test
 	public void Gmail_login() //facebook login
 	{
@@ -32,7 +32,7 @@ public class Index extends SeleniumInit
 		common.log("<br></br>Step 6: Click on send Button");
 		
 		 DashboardPage db = indexpage.login();
-		
+		/*helloo once ahain*/
 		if (db.verify_gmail_send())
 		{
 			Assert.assertTrue(true);
