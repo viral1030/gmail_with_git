@@ -32,7 +32,7 @@ public class Index extends SeleniumInit
 		common.log("<br></br>Step 6: Click on send Button");
 		
 		 DashboardPage db = indexpage.login();
-		/*helloo once ahain*/
+		/*comment removed*/
 		if (db.verify_gmail_send())
 		{
 			Assert.assertTrue(true);
