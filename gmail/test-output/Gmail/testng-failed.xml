@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Gmail]">
+  <parameter name="selenium.url" value="https://www.google.co.in"/>
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <test name="Sending mail(failed)">
+    <classes>
+      <class name="com.gmail.verifications.Index">
+        <methods>
+          <include name="Gmail_login"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.gmail.verifications.Index -->
+    </classes>
+  </test> <!-- Sending mail(failed) -->
+</suite> <!-- Failed suite [Gmail] -->
