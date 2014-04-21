@@ -20,23 +20,23 @@
       <![CDATA[<br></br>Step 6: Click on send Button]]>
     </line>
   </reporter-output>
-  <suite name="Gmail" duration-ms="140240" started-at="2014-04-16T08:19:21Z" finished-at="2014-04-16T08:21:41Z">
+  <suite name="Gmail" duration-ms="101472" started-at="2014-04-21T06:49:27Z" finished-at="2014-04-21T06:51:09Z">
     <groups>
     </groups>
-    <test name="Sending mail" duration-ms="140240" started-at="2014-04-16T08:19:21Z" finished-at="2014-04-16T08:21:41Z">
+    <test name="Sending mail" duration-ms="101472" started-at="2014-04-21T06:49:27Z" finished-at="2014-04-21T06:51:09Z">
       <class name="com.gmail.verifications.Index">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="fetchSuiteConfiguration" is-config="true" duration-ms="8" started-at="2014-04-16T13:49:21Z" finished-at="2014-04-16T13:49:21Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@1960f05]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2014-04-21T12:19:27Z" finished-at="2014-04-21T12:19:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6e4365]]>
+                <![CDATA[org.testng.TestRunner@15fc40c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="setUp" is-config="true" duration-ms="50151" started-at="2014-04-16T13:49:21Z" finished-at="2014-04-16T13:50:11Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@1960f05]" name="setUp" is-config="true" duration-ms="24334" started-at="2014-04-21T12:19:27Z" finished-at="2014-04-21T12:19:52Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Gmail_login()[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="Gmail_login" duration-ms="89469" started-at="2014-04-16T13:50:11Z" finished-at="2014-04-16T13:51:41Z">
+        <test-method status="PASS" signature="Gmail_login()[pri:0, instance:com.gmail.verifications.Index@1960f05]" name="Gmail_login" duration-ms="76500" started-at="2014-04-21T12:19:52Z" finished-at="2014-04-21T12:21:08Z">
           <reporter-output>
             <line>
               <![CDATA[<br></br>Step 1:open Google.com]]>
@@ -69,11 +69,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- Gmail_login -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@87a5cc]" name="tearDown" is-config="true" duration-ms="598" started-at="2014-04-16T13:51:41Z" finished-at="2014-04-16T13:51:41Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@1960f05]" name="tearDown" is-config="true" duration-ms="621" started-at="2014-04-21T12:21:08Z" finished-at="2014-04-21T12:21:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Gmail_login status=SUCCESS method=Index.Gmail_login()[pri:0, instance:com.gmail.verifications.Index@87a5cc] output=<br></br>Step 1:open Google.com]]]>
+                <![CDATA[[TestResult name=Gmail_login status=SUCCESS method=Index.Gmail_login()[pri:0, instance:com.gmail.verifications.Index@1960f05] output=<br></br>Step 1:open Google.com]]]>
               </value>
             </param>
           </params>

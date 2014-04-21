@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class DashboardPage extends AbstractPage {
 
 	
-	@FindBy (xpath ="html/body/div[5]/div[2]/div/div[1]/div[4]/div[1]/div[2]/div[3]/div/div/div[2]")
+	@FindBy (xpath ="//div[@class='vh']")
 	private WebElement sent_gmail;
 	
 	@FindBy (xpath =".//*[@id=':39']/div/div[1]/span/a")
