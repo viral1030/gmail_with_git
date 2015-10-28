@@ -10,10 +10,11 @@ import com.gmail.pages.DashboardPage;
 public class Index
 {
 public static void main(String args[]){
-	int a = 100;
+	String a = "10000000000000000000000000000000000000000";
 	int b = 200;
-	int c; 
-
+	int c=1000; 
+	int z= b+c;
+	
 System.out.println("addition"+a+b);
  String abc = "tarpan";
 
@@ -21,5 +22,7 @@ System.out.println("addition"+a+b);
  
  String pq = "rudresh";
 
+ System.out.println(abc+mn+pq+c);
+ 
 }
 }
