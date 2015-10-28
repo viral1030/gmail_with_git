@@ -63,7 +63,7 @@ public class Index extends SeleniumInit
 				"   </br>subject: automation " +
 				"   </br>Body :  this mail is send by automation script");
 		common.log("<br></br>Step 6: Click on send Button");
-		
+		common.log("<br></br>Step 7: Finish");
 		 DashboardPage db = indexpage.login();
 		/*comment removed*/
 		if (db.verify_gmail_send())
@@ -76,6 +76,36 @@ public class Index extends SeleniumInit
 			log("<br></br>FAIL");
 
 		}
+	}	
+		public void Gmail_login_by_tarpan6() //facebook login
+		{
+	        /* log here ..*/   
+			common.log("<br></br>Step 1:open Google.com");
+			common.log("<br></br>Step 2:clcik on Gmail link '");
+			common.log("<br></br>Step 3:Enter the valid detail into form field" +
+					"   <br></br> Email: tarpanworld13@gmail.com" +
+					"   <br></br> Password : taps@107");
+			common.log("<br></br> Step 4 : click on compose Button");
+			common.log("<br></br> Step 5 : Enter The Detail for sending mail" +
+					"   <br>TO : viral103patel@gmail.com " +
+					"   </br>subject: automation " +
+					"   </br>Body :  this mail is send by automation script");
+			common.log("<br></br>Step 6: Click on send Button");
+			common.log("<br></br>Step 7: Finish");
+			
+			 DashboardPage db = indexpage.login();
+			/*comment removed*/
+			if (db.verify_gmail_send())
+			{
+				Assert.assertTrue(true);
+				
+
+			} else {
+				Assert.assertTrue(false);
+				log("<br></br>FAIL");
+
+			}
+		
 	}
 	
 	
