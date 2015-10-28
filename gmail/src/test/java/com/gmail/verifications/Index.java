@@ -16,7 +16,7 @@ public class Index extends SeleniumInit
 
 	@Test
 
-	public void Gmail_tarpan_16() //facebook login
+	public void Gmail_viral_22() //facebook login
 
 	{
 		
