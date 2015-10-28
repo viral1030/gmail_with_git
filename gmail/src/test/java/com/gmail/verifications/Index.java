@@ -7,8 +7,11 @@ import com.gmail.Init.Common;
 import com.gmail.Init.SeleniumInit;
 import com.gmail.pages.DashboardPage;
 
+public class Index
 {
-
-
-
+public static void main(String args[]){
+	int a = 100;
+	int b = 200;
+	int c; 
+}
 }
