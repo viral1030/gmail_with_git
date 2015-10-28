@@ -13,4 +13,18 @@ public class Index extends SeleniumInit {
 	public int viral() {
 		return 10;
 	}
+
+public int rt()
+{
+	
+	System.out.println("=======");
+	System.out.println("*****");
+	System.out.println("++++++");
+	return 7;
+	
+	
+	
+	
+	
+}
 }
