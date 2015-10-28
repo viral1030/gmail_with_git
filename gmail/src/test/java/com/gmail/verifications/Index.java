@@ -49,7 +49,7 @@ public class Index extends SeleniumInit
 	
 	
 	@Test
-	public void Gmail_login_tarpan() //facebook login
+	public void Gmail_login_tarpan_1() //facebook login
 	{
         /* log here ..*/   
 		common.log("<br></br>Step 1:open Google.com");
@@ -63,7 +63,7 @@ public class Index extends SeleniumInit
 				"   </br>subject: automation " +
 				"   </br>Body :  this mail is send by automation script");
 		common.log("<br></br>Step 6: Click on send Button");
-		
+		common.log("<br></br>Step 7: Finish");
 		 DashboardPage db = indexpage.login();
 		/*comment removed*/
 		if (db.verify_gmail_send())
