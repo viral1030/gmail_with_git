@@ -16,7 +16,7 @@ public class Index extends SeleniumInit
 
 	/*****hello again*****/
 	@Test
-	public void Gmail_viral_14() //facebook login
+	public void Gmail_viral_15() //facebook login
 	{
 		
         /* log here .. viral 14*/   
