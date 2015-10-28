@@ -16,7 +16,7 @@ public class Index extends SeleniumInit
 
 	/*****hello again*****/
 	@Test
-	public void Gmail_login_viral_9() //facebook login
+	public void Gmail_login_viral_12() //facebook login
 	{
         /* log here ..*/   
 		common.log("<br></br>Step 1:open Google.com");
@@ -45,14 +45,6 @@ public class Index extends SeleniumInit
 		}
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-		
 		
 	}
 	
