@@ -15,10 +15,14 @@ public class Index extends SeleniumInit
 	Common common = new Common(driver);
 
 	@Test
-	public void Gmail_viral_15() //facebook login
+	public void Gmail_viral_17() //facebook login
 	{
 		
-        /* log here .. viral 2000*/   
+        /* log here .. viral 2000*/ 
+		 /* log here .. viral 2000*/ 
+		 /* log here .. viral 2000*/ 
+		 /* log here .. viral 2000*/ 
+		 /* log here .. viral 2000*/ 
 		common.log("<br></br>Step 1:open Google.com");
 		common.log("<br></br>Step 2:clcik on Gmail link '");
 		common.log("<br></br>Step 3:Enter the valid detail into form field" +
