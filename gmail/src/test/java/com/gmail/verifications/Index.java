@@ -77,7 +77,7 @@ public class Index extends SeleniumInit
 
 		}
 	}	
-		public void Gmail_login_by_tarpan6() //facebook login
+		public void Gmail_login_by_tarpan8() //facebook login
 		{
 	        /* log here ..*/   
 			common.log("<br></br>Step 1:open Google.com");
