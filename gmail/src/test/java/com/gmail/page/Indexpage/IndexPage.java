@@ -53,17 +53,17 @@ public class IndexPage extends AbstractPage {
 		gmail.click();
 		common.pause(3);
 		
-		enter_email.sendKeys("krazzyvir@gmail.com");
+		enter_email.sendKeys("tarpanworld13@gmail.com");
 		common.pause(3);
 		
-		enter_pass.sendKeys("8518krazzyvir1933");
+		enter_pass.sendKeys("taps@107");
 		common.pause(3);
 		
 		click_submit.click();
-		common.pause(20);
+		common.pause(4);
 		click_compose.click();
 		
-		common.pause(20);
+		common.pause(3);
 		common.waitForElement(".//*[@name='to']");
 		mail_sendTo.sendKeys("viral103patel@gmail.com");
 		
