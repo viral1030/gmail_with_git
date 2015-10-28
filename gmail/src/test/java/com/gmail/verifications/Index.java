@@ -16,9 +16,10 @@ public class Index extends SeleniumInit
 
 	/*****hello again*****/
 	@Test
-	public void Gmail_login_tarpan_13() //facebook login
+	public void Gmail_viral_14() //facebook login
 	{
-        /* log here ..*/   
+		
+        /* log here .. viral 14*/   
 		common.log("<br></br>Step 1:open Google.com");
 		common.log("<br></br>Step 2:clcik on Gmail link '");
 		common.log("<br></br>Step 3:Enter the valid detail into form field" +
