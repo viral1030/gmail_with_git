@@ -17,6 +17,9 @@ public static void main(String args[]){
 System.out.println("addition"+a+b);
  String abc = "tarpan";
 
+ String mn = "viral";
+ 
+ String pq = "rudresh";
 
 }
 }
