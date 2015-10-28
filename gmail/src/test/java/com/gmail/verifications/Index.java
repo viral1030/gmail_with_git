@@ -10,14 +10,14 @@ import com.gmail.pages.DashboardPage;
 public class Index extends SeleniumInit 
 {
 	
-
 	
-	}
+public int tarpan() 
+{
 	
-	
+}
 	
 			
-		
+}		
 	
 	
 
