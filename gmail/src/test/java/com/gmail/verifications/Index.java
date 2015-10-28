@@ -7,27 +7,10 @@ import com.gmail.Init.Common;
 import com.gmail.Init.SeleniumInit;
 import com.gmail.pages.DashboardPage;
 
-
-public class Index extends SeleniumInit 
-{
+public class Index extends SeleniumInit {
 	int a = 100;
 	int c = 556;
-	
-public int tarpan() 
-{
-	return 10;
-}
-	
-			
-}		
-	
-	
-
-public int aaa()
-{
-return 33;
-	public void Index1() {
-
+	public int viral() {
+		return 10;
 	}
-
 }
