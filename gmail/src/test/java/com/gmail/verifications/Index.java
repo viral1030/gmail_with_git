@@ -63,7 +63,14 @@ public class Index extends SeleniumInit
 		common.log("<br></br>Step 2:clcik on Gmail link '");
 		common.log("<br></br>Step 3:Enter the valid detail into form field" +
 				"   <br></br> Email: krazzyvir@gmail.com" +
-				"   <br></br> Password : --tarpan password--");
+				"   <br></br> Password : ----kamlesh------");
+		
+		/* log here .. viral 2000*/
+		/* log here .. viral 2000*/
+		/* log here .. viral 2000*/
+		/* log here .. viral 2000*/
+		/* log here .. viral 2000*/
+		
 
 		common.log("<br></br> Step 4 : click on compose Button");
 		common.log("<br></br> Step 5 : Enter The Detail for sending mail" +
@@ -77,6 +84,14 @@ public class Index extends SeleniumInit
 	
 	}
 	
+	
+	public void new_method_after_conflict() //facebook login
+
+	{
+		
+		
+		
+	}
 	
 	}
 	
