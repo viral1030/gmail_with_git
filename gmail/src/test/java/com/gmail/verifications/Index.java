@@ -8,9 +8,9 @@ import com.gmail.Init.SeleniumInit;
 import com.gmail.pages.DashboardPage;
 
 public class Index extends SeleniumInit {
-	int a = 100;
+	int rudresh = 1;
 	int c = 556;
-	public int viral() {
-		return 10;
+	public int viral_rudresh() {
+		return rudresh-rudresh;
 	}
 }
