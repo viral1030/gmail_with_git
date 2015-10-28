@@ -74,7 +74,8 @@ public class Index extends SeleniumInit
 		
 		/* log here .. tarpan 16*/  
 		
-	
+		common.log("<br></br>Step 6: ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+				+ "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
 	}
 	
 	
