@@ -15,10 +15,10 @@ public class Index extends SeleniumInit
 	Common common = new Common(driver);
 
 	@Test
-	public void Gmail_viral_15() //facebook login
+	public void Gmail_tarpan_16() //facebook login
 	{
 		
-        /* log here .. viral 14*/   
+        /* log here .. tarpan 14*/   
 		common.log("<br></br>Step 1:open Google.com");
 		common.log("<br></br>Step 2:clcik on Gmail link '");
 		common.log("<br></br>Step 3:Enter the valid detail into form field" +
@@ -30,6 +30,8 @@ public class Index extends SeleniumInit
 				"   </br>subject: automation " +
 				"   </br>Body :  this mail is send by automation script");
 		common.log("<br></br>Step 6: Click on send Button");
+		
+		/* log here .. tarpan 16*/  
 		
 		 DashboardPage db = indexpage.login();
 		/*comment removed*/
@@ -44,7 +46,7 @@ public class Index extends SeleniumInit
 
 		}
 	}
-	
+	/* log here .. tarpan 16*/  
 		
 	}
 	
