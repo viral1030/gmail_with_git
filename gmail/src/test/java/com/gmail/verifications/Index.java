@@ -13,7 +13,7 @@ public class Index extends SeleniumInit
 	
 public int tarpan() 
 {
-	
+	return 10;
 }
 	
 			
