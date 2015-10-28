@@ -16,7 +16,7 @@ public class Index extends SeleniumInit
 
 	@Test
 
-	public void Gmail_tarpan_16() //facebook login
+	public void Gmail_viral_22() //facebook login
 
 	{
 		
@@ -63,8 +63,8 @@ public class Index extends SeleniumInit
 		common.log("<br></br>Step 2:clcik on Gmail link '");
 		common.log("<br></br>Step 3:Enter the valid detail into form field" +
 				"   <br></br> Email: krazzyvir@gmail.com" +
-				"   <br></br> Password : passwordchange by tarpan....");
-	/*	I changed password*/
+				"   <br></br> Password : rameshsuresh");
+
 		common.log("<br></br> Step 4 : click on compose Button");
 		common.log("<br></br> Step 5 : Enter The Detail for sending mail" +
 				"   <br>TO : viral103patel@gmail.com " +
