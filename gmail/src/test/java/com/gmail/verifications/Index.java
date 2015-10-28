@@ -7,17 +7,10 @@ import com.gmail.Init.Common;
 import com.gmail.Init.SeleniumInit;
 import com.gmail.pages.DashboardPage;
 
-public class Index extends SeleniumInit 
-{
-	
+public class Index extends SeleniumInit {
 
-	
+	public void Index1() {
+
 	}
-	
-	
-	
-			
-		
-	
-	
 
+}
