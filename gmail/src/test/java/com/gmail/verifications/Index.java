@@ -7,7 +7,7 @@ import com.gmail.Init.Common;
 import com.gmail.Init.SeleniumInit;
 import com.gmail.pages.DashboardPage;
 
-public class index
+public class Index
 {
 int abcd=0;
 int abc=0;
