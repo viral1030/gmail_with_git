@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="10" name="Failed suite [Gmail]">
-  <parameter name="selenium.url" value="https://www.google.co.in"/>
-  <parameter name="selenium.browser" value="firefox"/>
+<suite thread-count="3" name="Failed suite [Index2]" parallel="tests">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
-  <test name="Sending mail(failed)">
+  <parameter name="selenium.browser" value="firefox"/>
+  <parameter name="selenium.url" value="https://www.google.co.in"/>
+  <listeners>
+    <listener class-name="com.gmail.Init.CustomLogger"/>
+    <listener class-name="com.gmail.Init.ReportGenerator"/>
+  </listeners>
+  <test name="Bottle(failed)" parallel="tests">
     <classes>
       <class name="com.gmail.verifications.Index">
         <methods>
-          <include name="Gmail_login"/>
           <include name="fetchSuiteConfiguration"/>
-          <include name="setUp"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="failedMethod"/>
         </methods>
       </class> <!-- com.gmail.verifications.Index -->
     </classes>
-  </test> <!-- Sending mail(failed) -->
-</suite> <!-- Failed suite [Gmail] -->
+  </test> <!-- Bottle(failed) -->
+</suite> <!-- Failed suite [Index2] -->

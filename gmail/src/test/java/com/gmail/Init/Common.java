@@ -34,7 +34,6 @@ import org.testng.Reporter;
  */
 
 public class Common {
-
 	Date date = new Date();
 	protected Wait<WebDriver> wait;
 	protected WebDriver driver;
@@ -242,7 +241,7 @@ public class Common {
 	 * @param msg
 	 *            Message/Log to be reported.
 	 */
-	public void log(String msg) {
+	public static void log(String msg) {
 		
 		Reporter.log(msg);
 		

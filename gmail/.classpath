@@ -22,6 +22,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/Tarpan/Software/Selenium_2.47/Server/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="C:/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="D:/ViGo-Reports-1.5.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

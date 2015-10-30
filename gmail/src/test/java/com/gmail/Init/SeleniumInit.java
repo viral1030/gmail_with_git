@@ -105,7 +105,7 @@ public class SeleniumInit implements ILoggerStatus {
 	public void setUp(Method method) throws IOException, InterruptedException {
 
 		
-		Runtime runtime = Runtime.getRuntime();
+	/*	Runtime runtime = Runtime.getRuntime();
 		runtime.exec("java -jar V:\\testing\\selenium-java-2.40.0\\selenium-2.40.0\\selenium-server-standalone-2.33.0.jar -role hub");
 		System.out.println("==================Server started=================");
 		Thread.sleep(2000);
@@ -114,7 +114,7 @@ public class SeleniumInit implements ILoggerStatus {
 		Runtime runtime2 = Runtime.getRuntime();
 		runtime2.exec("java -jar V:\\testing\\selenium-java-2.40.0\\selenium-2.40.0\\selenium-server-standalone-2.33.0.jar -role node -port 5554");
 		System.out.println("=======================Node started====================");
-		Thread.sleep(2000);
+		Thread.sleep(2000);*/
 		
 		currentTest = method.getName(); // get Name of current test.
 
