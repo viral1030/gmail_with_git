@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Failed suite [Index2]" parallel="tests">
+<suite thread-count="3" name="Failed suite [Index3]" parallel="tests">
   <parameter name="selenium.port" value="4444"/>
   <parameter name="selenium.host" value="localhost"/>
   <parameter name="selenium.browser" value="firefox"/>
   <parameter name="selenium.url" value="https://www.google.co.in"/>
   <listeners>
     <listener class-name="com.gmail.Init.CustomLogger"/>
-    <listener class-name="com.gmail.Init.ReportGenerator"/>
   </listeners>
-  <test name="Bottle(failed)" parallel="tests">
+  <test name="Bus(failed)" parallel="tests">
     <classes>
       <class name="com.gmail.verifications.Index">
         <methods>
@@ -26,5 +25,5 @@
         </methods>
       </class> <!-- com.gmail.verifications.Index -->
     </classes>
-  </test> <!-- Bottle(failed) -->
-</suite> <!-- Failed suite [Index2] -->
+  </test> <!-- Bus(failed) -->
+</suite> <!-- Failed suite [Index3] -->

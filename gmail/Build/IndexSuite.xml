@@ -20,7 +20,9 @@
 
 	<listeners>
 		<listener class-name="com.gmail.Init.CustomLogger" />
+
 		<listener class-name="com.gmail.Init.ReportGenerator" />
+
 	</listeners>
 
 
