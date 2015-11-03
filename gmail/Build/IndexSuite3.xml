@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Index3" verbose="1" parallel="tests" thread-count="3">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+
+	<parameter name="selenium.browser" value="firefox" />
+	<parameter name="selenium.url" value="https://www.google.co.in" />
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun respective test. -->
+
+
+	<listeners>
+		<listener class-name="com.gmail.Init.CustomLogger" />
+		
+	</listeners>
+
+
+	<test name="Train">
+		<classes>
+			<class name="com.gmail.verifications.Index">
+				<methods>
+					<include name="passedMethod" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Bus">
+		<classes>
+			<class name="com.gmail.verifications.Index">
+				<methods>
+					<include name="failedMethod" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+	<test name="Cycle">
+		<classes>
+			<class name="com.gmail.verifications.Index">
+				<methods>
+					<include name="failedMethod1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+
+</suite> 
