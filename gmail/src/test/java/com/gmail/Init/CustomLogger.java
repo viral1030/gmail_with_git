@@ -19,8 +19,10 @@ public class CustomLogger implements ITestListener {
 
 		for (String a : list) {
 
-			System.err.println("Method Name : " + arg0.getName() + "Step : "
-					+ a);
+			/*
+			 * System.err.println("Method Name : " + arg0.getName() + "Step : "
+			 * + a);
+			 */
 
 			myMultimap.put(arg0.getName(), a);
 
