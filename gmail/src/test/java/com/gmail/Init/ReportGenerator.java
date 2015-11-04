@@ -40,10 +40,16 @@ public class ReportGenerator implements IReporter {
 
 				ITestContext context = results.get(key).getTestContext();
 
-				String a[] = context.getIncludedGroups();
+				String groupName[] = context.getAllTestMethods()[0].getGroups();
 
-				System.out.println(" length " + a.length);
+				System.out.println("Group Name " + groupName[0].toString());
 
+				
+				System.out.println("Group Name " +context);
+				
+				
+				
+				
 				testName.add(context.getName());
 
 				suiteName.add(context.getSuite().getName());

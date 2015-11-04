@@ -11,7 +11,7 @@ public class Index extends SeleniumInit {
 
 	CustomLogger cl = new CustomLogger();
 
-	@Test
+	@Test(groups = { "functest" })
 	public void passedMethod() {
 
 		CustomLogger.kiwiLog("Sending mail Step 1 : ");
@@ -32,7 +32,7 @@ public class Index extends SeleniumInit {
 
 	}
 
-	@Test
+	@Test(groups = { "functest123" })
 	public void failedMethod() {
 
 		CustomLogger.kiwiLog("Cancle Mail Step 1 : ");
@@ -53,7 +53,7 @@ public class Index extends SeleniumInit {
 
 	}
 
-	@Test
+	@Test(groups = { "functest" })
 	public void failedMethod1() {
 
 		CustomLogger.kiwiLog("Resend Mail Step 1 : ");

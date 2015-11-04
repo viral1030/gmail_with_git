@@ -9,35 +9,19 @@
     <listener class-name="com.gmail.Init.CustomLogger"/>
     <listener class-name="com.gmail.Init.ReportGenerator"/>
   </listeners>
-  <test name="Resend Mail(failed)" parallel="tests">
-    <classes>
-      <class name="com.gmail.verifications.Index">
-        <methods>
-          <include name="failedMethod1"/>
-          <include name="fetchSuiteConfiguration"/>
-          <include name="fetchSuiteConfiguration"/>
-          <include name="fetchSuiteConfiguration"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.gmail.verifications.Index -->
-    </classes>
-  </test> <!-- Resend Mail(failed) -->
   <test name="Cancle Mail(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="functest123"/>
+      </run>
+    </groups>
     <classes>
       <class name="com.gmail.verifications.Index">
         <methods>
           <include name="fetchSuiteConfiguration"/>
           <include name="fetchSuiteConfiguration"/>
-          <include name="fetchSuiteConfiguration"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="setUp"/>
           <include name="setUp"/>
           <include name="failedMethod"/>
@@ -45,4 +29,24 @@
       </class> <!-- com.gmail.verifications.Index -->
     </classes>
   </test> <!-- Cancle Mail(failed) -->
+  <test name="Sending mail(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="functest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.gmail.verifications.Index">
+        <methods>
+          <include name="failedMethod1"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.gmail.verifications.Index -->
+    </classes>
+  </test> <!-- Sending mail(failed) -->
 </suite> <!-- Failed suite [Gmail] -->

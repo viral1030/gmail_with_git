@@ -27,29 +27,40 @@
 
 
 	<test name="Sending mail">
+
+		<groups>
+			<run>
+				<include name="functest" />
+			</run>
+		</groups>
+
+
 		<classes>
 			<class name="com.gmail.verifications.Index">
-				<methods>
-					<include name="passedMethod" />
-				</methods>
+
 			</class>
 		</classes>
 	</test>
 
 
 	<test name="Cancle Mail">
+
+		<groups>
+			<run>
+				<include name="functest123" />
+			</run>
+		</groups>
+
 		<classes>
 			<class name="com.gmail.verifications.Index">
-				<methods>
-					<include name="failedMethod" />
-				</methods>
+
 			</class>
 		</classes>
 	</test>
 
 
 
-	<test name="Resend Mail">
+	<!-- <test name="Resend Mail">
 		<classes>
 			<class name="com.gmail.verifications.Index">
 				<methods>
@@ -57,9 +68,9 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test> -->
 
 
-
+	
 
 </suite> 
