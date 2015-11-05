@@ -11,65 +11,65 @@ public class Index extends SeleniumInit {
 
 	CustomLogger cl = new CustomLogger();
 
-	@Test(groups = { "functest" })
-	public void passedMethod() {
+	@Test(groups = { "login" })
+	public void loginMethod() {
 
-		CustomLogger.kiwiLog("Sending mail Step 1 : ");
-		CustomLogger.kiwiLog("Sending mail Step 2 : ");
-		CustomLogger.kiwiLog("Sending mail Step 3 : ");
-		CustomLogger.kiwiLog("Sending mail Step 4 : ");
-		CustomLogger.kiwiLog("Sending mail Step 5 : ");
-		CustomLogger.kiwiLog("Sending mail Step 6 : ");
-		CustomLogger.kiwiLog("Sending mail Step 7 : ");
-		CustomLogger.kiwiLog("Sending mail Step 8 : ");
-		CustomLogger.kiwiLog("Sending mail Step 9 : ");
-		CustomLogger.kiwiLog("Sending mail Step 10 : ");
-		CustomLogger.kiwiLog("Sending mail Step 11 : ");
-		CustomLogger.kiwiLog("Sending mail Step 12: ");
-		CustomLogger.kiwiLog("Sending mail Step 13 : ");
+		CustomLogger.kiwiLog("login Step 1 : ");
+		CustomLogger.kiwiLog("login Step 2 : ");
+		CustomLogger.kiwiLog("login Step 3 : ");
+		CustomLogger.kiwiLog("login Step 4 : ");
+		CustomLogger.kiwiLog("login Step 5 : ");
+		CustomLogger.kiwiLog("login Step 6 : ");
+		CustomLogger.kiwiLog("login Step 7 : ");
+		CustomLogger.kiwiLog("login Step 8 : ");
+		CustomLogger.kiwiLog("login Step 9 : ");
+		CustomLogger.kiwiLog("login Step 10 : ");
+		CustomLogger.kiwiLog("login Step 11 : ");
+		CustomLogger.kiwiLog("login Step 12: ");
+		CustomLogger.kiwiLog("login Step 13 : ");
 
 		Common.pause(5);
 
 	}
 
-	@Test(groups = { "functest123" })
-	public void failedMethod() {
+	@Test(groups = { "signup" })
+	public void signupMethod() {
 
-		CustomLogger.kiwiLog("Cancle Mail Step 1 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 2 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 3 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 4 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 5 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 6 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 7 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 8 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 9 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 10 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 11 : ");
-		CustomLogger.kiwiLog("Cancle Mail Step 12: ");
-		CustomLogger.kiwiLog("Cancle Mail Step 13 : ");
+		CustomLogger.kiwiLog("signup Step 1 : ");
+		CustomLogger.kiwiLog("signup Step 2 : ");
+		CustomLogger.kiwiLog("signup Step 3 : ");
+		CustomLogger.kiwiLog("signup Step 4 : ");
+		CustomLogger.kiwiLog("signup Step 5 : ");
+		CustomLogger.kiwiLog("signup Step 6 : ");
+		CustomLogger.kiwiLog("signup Step 7 : ");
+		CustomLogger.kiwiLog("signup Step 8 : ");
+		CustomLogger.kiwiLog("signup Step 9 : ");
+		CustomLogger.kiwiLog("signup Step 10 : ");
+		CustomLogger.kiwiLog("signup Step 11 : ");
+		CustomLogger.kiwiLog("signup Step 12: ");
+		CustomLogger.kiwiLog("signup Step 13 : ");
 
 		Assert.assertTrue(false);
 
 	}
 
-	@Test(groups = { "functest" })
-	public void failedMethod1() {
+	@Test(groups = { "login" })
+	public void forgotPasswordMethod() {
 
-		CustomLogger.kiwiLog("Resend Mail Step 1 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 2 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 3 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 4 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 5 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 6 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 7 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 8 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 9 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 10 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 11 : ");
-		CustomLogger.kiwiLog("Resend Mail Step 12: ");
-		CustomLogger.kiwiLog("Resend Mail Step 13 : ");
-		Assert.assertTrue(false);
+		CustomLogger.kiwiLog("forgot password Step 1 : ");
+		CustomLogger.kiwiLog("forgot password Step 2 : ");
+		CustomLogger.kiwiLog("forgot password Step 3 : ");
+		CustomLogger.kiwiLog("forgot password Step 4 : ");
+		CustomLogger.kiwiLog("forgot password Step 5 : ");
+		CustomLogger.kiwiLog("forgot password Step 6 : ");
+		CustomLogger.kiwiLog("forgot password Step 7 : ");
+		CustomLogger.kiwiLog("forgot password Step 8 : ");
+		CustomLogger.kiwiLog("forgot password Step 9 : ");
+		CustomLogger.kiwiLog("forgot password Step 10 : ");
+		CustomLogger.kiwiLog("forgot password Step 11 : ");
+		CustomLogger.kiwiLog("forgot password Step 12: ");
+		CustomLogger.kiwiLog("forgot password Step 13 : ");
+	/*	Assert.assertTrue(false);*/
 	}
 
 }

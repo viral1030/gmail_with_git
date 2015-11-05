@@ -26,11 +26,11 @@
 	</listeners>
 
 
-	<test name="Sending mail">
+	<test name="Login ">
 
 		<groups>
 			<run>
-				<include name="functest" />
+				<include name="login" />
 			</run>
 		</groups>
 
@@ -43,11 +43,11 @@
 	</test>
 
 
-	<test name="Cancle Mail">
+	<test name="Signup">
 
 		<groups>
 			<run>
-				<include name="functest123" />
+				<include name="signup" />
 			</run>
 		</groups>
 
@@ -60,17 +60,11 @@
 
 
 
-	<!-- <test name="Resend Mail">
-		<classes>
-			<class name="com.gmail.verifications.Index">
-				<methods>
-					<include name="failedMethod1" />
-				</methods>
-			</class>
-		</classes>
-	</test> -->
+	<!-- <test name="Resend Mail"> <classes> <class name="com.gmail.verifications.Index"> 
+		<methods> <include name="failedMethod1" /> </methods> </class> </classes> 
+		</test> -->
 
 
-	
+
 
 </suite> 

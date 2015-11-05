@@ -6,6 +6,7 @@ import java.util.HashMap;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
@@ -56,7 +57,7 @@ public class CustomLogger implements ITestListener {
 	}
 
 	public static void kiwiLog(String log) {
-
+		Reporter.log(log);
 		list.add(log);
 
 	}

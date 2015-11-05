@@ -9,10 +9,10 @@
     <listener class-name="com.gmail.Init.CustomLogger"/>
     <listener class-name="com.gmail.Init.ReportGenerator"/>
   </listeners>
-  <test name="Cancle Mail(failed)" parallel="tests">
+  <test name="Signup(failed)" parallel="tests">
     <groups>
       <run>
-        <include name="functest123"/>
+        <include name="signup"/>
       </run>
     </groups>
     <classes>
@@ -20,27 +20,7 @@
         <methods>
           <include name="fetchSuiteConfiguration"/>
           <include name="fetchSuiteConfiguration"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="failedMethod"/>
-        </methods>
-      </class> <!-- com.gmail.verifications.Index -->
-    </classes>
-  </test> <!-- Cancle Mail(failed) -->
-  <test name="Sending mail(failed)" parallel="tests">
-    <groups>
-      <run>
-        <include name="functest"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.gmail.verifications.Index">
-        <methods>
-          <include name="failedMethod1"/>
-          <include name="fetchSuiteConfiguration"/>
-          <include name="fetchSuiteConfiguration"/>
+          <include name="signupMethod"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="setUp"/>
@@ -48,5 +28,5 @@
         </methods>
       </class> <!-- com.gmail.verifications.Index -->
     </classes>
-  </test> <!-- Sending mail(failed) -->
+  </test> <!-- Signup(failed) -->
 </suite> <!-- Failed suite [Gmail] -->

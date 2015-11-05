@@ -1,14 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="2" total="6" passed="4">
   <reporter-output>
     <line>
+      <![CDATA[forgot password Step 1 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 2 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 3 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 4 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 5 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 6 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 7 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 8 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 9 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 10 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 11 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 12: ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 13 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 1 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 2 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 3 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 4 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 5 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 6 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 7 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 8 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 9 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 10 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 11 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 12: ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 13 : ]]>
+    </line>
+    <line>
       <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
     </line>
     <line>
       <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<a href='../test-output/screenshots/1105171616926failedMethod.png'>1105171616926failedMethod.png</a>]]>
+      <![CDATA[<a href='../test-output/screenshots/1106005417630signupMethod.png'>1106005417630signupMethod.png</a>]]>
+    </line>
+    <line>
+      <![CDATA[login Step 1 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 2 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 3 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 4 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 5 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 6 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 7 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 8 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 9 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 10 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 11 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 12: ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 13 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 1 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 2 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 3 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 4 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 5 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 6 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 7 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 8 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 9 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 10 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 11 : ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 12: ]]>
+    </line>
+    <line>
+      <![CDATA[login Step 13 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 1 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 2 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 3 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 4 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 5 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 6 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 7 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 8 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 9 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 10 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 11 : ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 12: ]]>
+    </line>
+    <line>
+      <![CDATA[signup Step 13 : ]]>
     </line>
     <line>
       <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
@@ -17,44 +212,83 @@
       <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<a href='../test-output/screenshots/1105171628400failedMethod1.png'>1105171628400failedMethod1.png</a>]]>
+      <![CDATA[<a href='../test-output/screenshots/1106005441614signupMethod.png'>1106005441614signupMethod.png</a>]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 1 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 2 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 3 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 4 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 5 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 6 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 7 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 8 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 9 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 10 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 11 : ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 12: ]]>
+    </line>
+    <line>
+      <![CDATA[forgot password Step 13 : ]]>
     </line>
   </reporter-output>
-  <suite name="Gmail" duration-ms="54828" started-at="2015-11-05T11:45:53Z" finished-at="2015-11-05T11:46:47Z">
+  <suite name="Gmail" duration-ms="30008" started-at="2015-11-05T19:23:57Z" finished-at="2015-11-05T19:24:27Z">
     <groups>
-      <group name="functest">
-        <method signature="Index.failedMethod1()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="failedMethod1" class="com.gmail.verifications.Index"/>
-        <method signature="Index.passedMethod()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="passedMethod" class="com.gmail.verifications.Index"/>
-      </group> <!-- functest -->
-      <group name="functest123">
-        <method signature="Index.failedMethod()[pri:0, instance:com.gmail.verifications.Index@17550481]" name="failedMethod" class="com.gmail.verifications.Index"/>
-      </group> <!-- functest123 -->
+      <group name="login">
+        <method signature="Index.forgotPasswordMethod()[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="forgotPasswordMethod" class="com.gmail.verifications.Index"/>
+        <method signature="Index.loginMethod()[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="loginMethod" class="com.gmail.verifications.Index"/>
+      </group> <!-- login -->
+      <group name="signup">
+        <method signature="Index.signupMethod()[pri:0, instance:com.gmail.verifications.Index@1324409e]" name="signupMethod" class="com.gmail.verifications.Index"/>
+      </group> <!-- signup -->
     </groups>
-    <test name="Cancle Mail" duration-ms="29081" started-at="2015-11-05T11:45:53Z" finished-at="2015-11-05T11:46:22Z">
+    <test name="Signup" duration-ms="20574" started-at="2015-11-05T19:23:57Z" finished-at="2015-11-05T19:24:18Z">
       <class name="com.gmail.verifications.Index">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="fetchSuiteConfiguration" is-config="true" duration-ms="21" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:15:53Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@1324409e]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-11-06T00:53:57Z" finished-at="2015-11-06T00:53:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5034c75a]]>
+                <![CDATA[org.testng.TestRunner@c038203]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="setUp" is-config="true" duration-ms="23550" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:16:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@1324409e]" name="setUp" is-config="true" duration-ms="19839" started-at="2015-11-06T00:53:57Z" finished-at="2015-11-06T00:54:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.gmail.verifications.Index.failedMethod()]]>
+                <![CDATA[public void com.gmail.verifications.Index.signupMethod()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="failedMethod()[pri:0, instance:com.gmail.verifications.Index@17550481]" name="failedMethod" duration-ms="238" started-at="2015-11-05T17:16:16Z" finished-at="2015-11-05T17:16:16Z">
+        <test-method status="FAIL" signature="signupMethod()[pri:0, instance:com.gmail.verifications.Index@1324409e]" name="signupMethod" duration-ms="0" started-at="2015-11-06T00:54:17Z" finished-at="2015-11-06T00:54:17Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -65,7 +299,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.gmail.verifications.Index.failedMethod(Index.java:52)
+	at com.gmail.verifications.Index.signupMethod(Index.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -91,21 +325,60 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
+              <![CDATA[signup Step 1 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 2 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 3 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 4 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 5 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 6 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 7 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 8 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 9 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 10 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 11 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 12: ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 13 : ]]>
+            </line>
+            <line>
               <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
             </line>
             <line>
               <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
             </line>
             <line>
-              <![CDATA[<a href='../test-output/screenshots/1105171616926failedMethod.png'>1105171616926failedMethod.png</a>]]>
+              <![CDATA[<a href='../test-output/screenshots/1106005417630signupMethod.png'>1106005417630signupMethod.png</a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- failedMethod -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="tearDown" is-config="true" duration-ms="5157" started-at="2015-11-05T17:16:16Z" finished-at="2015-11-05T17:16:22Z">
+        </test-method> <!-- signupMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@1324409e]" name="tearDown" is-config="true" duration-ms="703" started-at="2015-11-06T00:54:17Z" finished-at="2015-11-06T00:54:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=failedMethod status=FAILURE method=Index.failedMethod()[pri:0, instance:com.gmail.verifications.Index@17550481] output=<br> <b>Please look to the screenshot - </b>]]]>
+                <![CDATA[[TestResult name=signupMethod status=FAILURE method=Index.signupMethod()[pri:0, instance:com.gmail.verifications.Index@1324409e] output=signup Step 1 : ]]]>
               </value>
             </param>
           </params>
@@ -113,109 +386,144 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gmail.verifications.Index -->
-    </test> <!-- Cancle Mail -->
-    <test name="Sending mail" duration-ms="54828" started-at="2015-11-05T11:45:53Z" finished-at="2015-11-05T11:46:47Z">
+    </test> <!-- Signup -->
+    <test name="Login " duration-ms="30008" started-at="2015-11-05T19:23:57Z" finished-at="2015-11-05T19:24:27Z">
       <class name="com.gmail.verifications.Index">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="24" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:15:53Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="fetchSuiteConfiguration" is-config="true" duration-ms="16" started-at="2015-11-06T00:53:57Z" finished-at="2015-11-06T00:53:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@396a51ab]]>
+                <![CDATA[org.testng.TestRunner@cc285f4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="setUp" is-config="true" duration-ms="35352" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:16:28Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="setUp" is-config="true" duration-ms="9342" started-at="2015-11-06T00:53:57Z" finished-at="2015-11-06T00:54:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.gmail.verifications.Index.failedMethod1()]]>
+                <![CDATA[public void com.gmail.verifications.Index.forgotPasswordMethod()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="failedMethod1()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="failedMethod1" duration-ms="1" started-at="2015-11-05T17:16:28Z" finished-at="2015-11-05T17:16:28Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.gmail.verifications.Index.failedMethod1(Index.java:72)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="forgotPasswordMethod()[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="forgotPasswordMethod" duration-ms="16" started-at="2015-11-06T00:54:07Z" finished-at="2015-11-06T00:54:07Z">
           <reporter-output>
             <line>
-              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+              <![CDATA[forgot password Step 1 : ]]>
             </line>
             <line>
-              <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+              <![CDATA[forgot password Step 2 : ]]>
             </line>
             <line>
-              <![CDATA[<a href='../test-output/screenshots/1105171628400failedMethod1.png'>1105171628400failedMethod1.png</a>]]>
+              <![CDATA[forgot password Step 3 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 4 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 5 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 6 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 7 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 8 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 9 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 10 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 11 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 12: ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 13 : ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- failedMethod1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="tearDown" is-config="true" duration-ms="1216" started-at="2015-11-05T17:16:28Z" finished-at="2015-11-05T17:16:29Z">
+        </test-method> <!-- forgotPasswordMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="tearDown" is-config="true" duration-ms="375" started-at="2015-11-06T00:54:07Z" finished-at="2015-11-06T00:54:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=failedMethod1 status=FAILURE method=Index.failedMethod1()[pri:0, instance:com.gmail.verifications.Index@96532d6] output=<br> <b>Please look to the screenshot - </b>]]]>
+                <![CDATA[[TestResult name=forgotPasswordMethod status=SUCCESS method=Index.forgotPasswordMethod()[pri:0, instance:com.gmail.verifications.Index@3796751b] output=forgot password Step 1 : ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="setUp" is-config="true" duration-ms="12882" started-at="2015-11-05T17:16:29Z" finished-at="2015-11-05T17:16:42Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="setUp" is-config="true" duration-ms="14895" started-at="2015-11-06T00:54:07Z" finished-at="2015-11-06T00:54:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.gmail.verifications.Index.passedMethod()]]>
+                <![CDATA[public void com.gmail.verifications.Index.loginMethod()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="passedMethod()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="passedMethod" duration-ms="5002" started-at="2015-11-05T17:16:42Z" finished-at="2015-11-05T17:16:47Z">
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="loginMethod" duration-ms="5000" started-at="2015-11-06T00:54:22Z" finished-at="2015-11-06T00:54:27Z">
           <reporter-output>
+            <line>
+              <![CDATA[login Step 1 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 2 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 3 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 4 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 5 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 6 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 7 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 8 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 9 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 10 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 11 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 12: ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 13 : ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- passedMethod -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="tearDown" is-config="true" duration-ms="325" started-at="2015-11-05T17:16:47Z" finished-at="2015-11-05T17:16:47Z">
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@3796751b]" name="tearDown" is-config="true" duration-ms="348" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=passedMethod status=SUCCESS method=Index.passedMethod()[pri:0, instance:com.gmail.verifications.Index@96532d6] output={null}]]]>
+                <![CDATA[[TestResult name=loginMethod status=SUCCESS method=Index.loginMethod()[pri:0, instance:com.gmail.verifications.Index@3796751b] output=login Step 1 : ]]]>
               </value>
             </param>
           </params>
@@ -223,6 +531,300 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.gmail.verifications.Index -->
-    </test> <!-- Sending mail -->
+    </test> <!-- Login  -->
   </suite> <!-- Gmail -->
+  <suite name="Index2" duration-ms="18874" started-at="2015-11-05T19:24:27Z" finished-at="2015-11-05T19:24:46Z">
+    <groups>
+      <group name="login">
+        <method signature="Index.loginMethod()[pri:0, instance:com.gmail.verifications.Index@1e67b872]" name="loginMethod" class="com.gmail.verifications.Index"/>
+        <method signature="Index.forgotPasswordMethod()[pri:0, instance:com.gmail.verifications.Index@15975490]" name="forgotPasswordMethod" class="com.gmail.verifications.Index"/>
+      </group> <!-- login -->
+      <group name="signup">
+        <method signature="Index.signupMethod()[pri:0, instance:com.gmail.verifications.Index@68837a77]" name="signupMethod" class="com.gmail.verifications.Index"/>
+      </group> <!-- signup -->
+    </groups>
+    <test name="Bottle" duration-ms="14425" started-at="2015-11-05T19:24:27Z" finished-at="2015-11-05T19:24:42Z">
+      <class name="com.gmail.verifications.Index">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@68837a77]" name="setUp" is-config="true" duration-ms="13830" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gmail.verifications.Index.signupMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@68837a77]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18be83e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="FAIL" signature="signupMethod()[pri:0, instance:com.gmail.verifications.Index@68837a77]" name="signupMethod" duration-ms="1" started-at="2015-11-06T00:54:41Z" finished-at="2015-11-06T00:54:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.gmail.verifications.Index.signupMethod(Index.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[signup Step 1 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 2 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 3 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 4 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 5 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 6 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 7 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 8 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 9 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 10 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 11 : ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 12: ]]>
+            </line>
+            <line>
+              <![CDATA[signup Step 13 : ]]>
+            </line>
+            <line>
+              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+            </line>
+            <line>
+              <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='../test-output/screenshots/1106005441614signupMethod.png'>1106005441614signupMethod.png</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signupMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@68837a77]" name="tearDown" is-config="true" duration-ms="594" started-at="2015-11-06T00:54:41Z" finished-at="2015-11-06T00:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signupMethod status=FAILURE method=Index.signupMethod()[pri:0, instance:com.gmail.verifications.Index@68837a77] output=signup Step 1 : ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.verifications.Index -->
+    </test> <!-- Bottle -->
+    <test name="Inbox" duration-ms="15101" started-at="2015-11-05T19:24:27Z" finished-at="2015-11-05T19:24:42Z">
+      <class name="com.gmail.verifications.Index">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@1e67b872]" name="setUp" is-config="true" duration-ms="9860" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gmail.verifications.Index.loginMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@1e67b872]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@8bd1b6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="loginMethod()[pri:0, instance:com.gmail.verifications.Index@1e67b872]" name="loginMethod" duration-ms="5002" started-at="2015-11-06T00:54:37Z" finished-at="2015-11-06T00:54:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login Step 1 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 2 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 3 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 4 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 5 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 6 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 7 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 8 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 9 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 10 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 11 : ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 12: ]]>
+            </line>
+            <line>
+              <![CDATA[login Step 13 : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@1e67b872]" name="tearDown" is-config="true" duration-ms="239" started-at="2015-11-06T00:54:42Z" finished-at="2015-11-06T00:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginMethod status=SUCCESS method=Index.loginMethod()[pri:0, instance:com.gmail.verifications.Index@1e67b872] output=login Step 1 : ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.verifications.Index -->
+    </test> <!-- Inbox -->
+    <test name="Laptop" duration-ms="18874" started-at="2015-11-05T19:24:27Z" finished-at="2015-11-05T19:24:46Z">
+      <class name="com.gmail.verifications.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@15975490]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55f3ddb1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@15975490]" name="setUp" is-config="true" duration-ms="18606" started-at="2015-11-06T00:54:27Z" finished-at="2015-11-06T00:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.gmail.verifications.Index.forgotPasswordMethod()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgotPasswordMethod()[pri:0, instance:com.gmail.verifications.Index@15975490]" name="forgotPasswordMethod" duration-ms="1" started-at="2015-11-06T00:54:46Z" finished-at="2015-11-06T00:54:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[forgot password Step 1 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 2 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 3 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 4 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 5 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 6 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 7 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 8 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 9 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 10 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 11 : ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 12: ]]>
+            </line>
+            <line>
+              <![CDATA[forgot password Step 13 : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@15975490]" name="tearDown" is-config="true" duration-ms="251" started-at="2015-11-06T00:54:46Z" finished-at="2015-11-06T00:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotPasswordMethod status=SUCCESS method=Index.forgotPasswordMethod()[pri:0, instance:com.gmail.verifications.Index@15975490] output=forgot password Step 1 : ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gmail.verifications.Index -->
+    </test> <!-- Laptop -->
+  </suite> <!-- Index2 -->
 </testng-results>

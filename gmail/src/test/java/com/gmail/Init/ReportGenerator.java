@@ -22,11 +22,11 @@ public class ReportGenerator implements IReporter {
 	ArrayList<String> testName = new ArrayList<String>();
 	ArrayList<String> passedMethod = new ArrayList<String>();
 	ArrayList<String> failedMethod = new ArrayList<String>();
+	ArrayList<String> skippedMethod = new ArrayList<String>();
 
 	Map<String, Long> totalTestTime = new HashMap<String, Long>();
 	Map<String, Date> testStartTime = new HashMap<String, Date>();
 	Map<String, Date> testEndTime = new HashMap<String, Date>();
-
 	Map<String, String> testWithGroup = new HashMap<String, String>();
 
 	public void generateReport(List<XmlSuite> arg0, List<ISuite> arg1,
@@ -37,6 +37,10 @@ public class ReportGenerator implements IReporter {
 			Map<String, ISuiteResult> results = iSuite.getResults();
 
 			Set<String> keys = results.keySet();
+			/*
+			 * System.out.println("Suite" + iSuite.getName());
+			 */
+			suiteName.add(iSuite.getName());
 
 			for (String key : keys) {
 
@@ -44,26 +48,27 @@ public class ReportGenerator implements IReporter {
 
 				String groupName[] = context.getAllTestMethods()[0].getGroups();
 
-				System.out.println("Group Name " + groupName[0].toString());
+				// ----------------------------------Group
+				// Name-----------------------------------------------------
 
-				
-			 /* System.out.println("Group Name " +context); */
+				/* System.out.println("Group Name " + groupName[0].toString()); */
+
+				/* System.out.println("Group Name " +context); */
 
 				testWithGroup.put(context.getName(), groupName[0].toString());
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
+
+				// ---------------------------------- Total Test Configuration
+				// ---------------------------------------------
 
 				testName.add(context.getName());
 
-				suiteName.add(context.getSuite().getName());
+				// -------------------------------------Suite
+				// Details------------------------------------------
+
+				/* suiteName.add(context.getSuite().getName()); */
+
+				// ---------------------------------------Test execution
+				// Time----------------------------------------------------
 
 				long diff = context.getEndDate().getTime()
 
@@ -77,6 +82,9 @@ public class ReportGenerator implements IReporter {
 
 				totalTestTime.put(context.getName(), diffSeconds);
 
+				// -----------------------------Total Passed
+				// Method---------------------------------------------
+
 				IResultMap resultMap = context.getFailedTests();
 
 				IResultMap passedresultMap = context.getPassedTests();
@@ -89,6 +97,8 @@ public class ReportGenerator implements IReporter {
 
 				}
 
+				// ------------------------------Total Failed
+				// Method-------------------------------------------------
 				Collection<ITestNGMethod> failedMethods = resultMap
 						.getAllMethods();
 
@@ -98,6 +108,20 @@ public class ReportGenerator implements IReporter {
 
 				}
 
+				// -------------------------------Total Skipped
+				// Method------------------------------------------------
+				IResultMap skippedResultMap = context.getSkippedTests();
+
+				Collection<ITestNGMethod> skippedmethod = skippedResultMap
+						.getAllMethods();
+
+				for (ITestNGMethod iTestNGMethod : skippedmethod) {
+
+					skippedMethod.add(iTestNGMethod.getMethodName());
+
+				}
+
+				// -------------------------------------------------------------------------------
 				/*
 				 * Collection<String> log = CustomLogger.myMultimap.get(context
 				 * .getName());
@@ -119,10 +143,23 @@ public class ReportGenerator implements IReporter {
 
 		}
 
-		System.out
-				.println("============================TEST RUN RESULT============================");
+		// -------------------------------------------------------------------------------
 
-		System.out.println("TOTAl PASSED METHOD " + passedMethod.size());
+		System.out
+				.println("============================Over All Summary============================");
+
+		System.out.println("TOTAL   : "
+				+ (passedMethod.size() + failedMethod.size() + skippedMethod
+						.size()));
+
+		System.out.println("PASSED  : " + passedMethod.size());
+
+		System.out.println("FAILED  : " + failedMethod.size());
+
+		System.out.println("SKIPPED : " + skippedMethod.size());
+
+		System.out
+				.println("\n============================Passed Methods============================");
 
 		for (String a : passedMethod) {
 
@@ -130,14 +167,37 @@ public class ReportGenerator implements IReporter {
 
 		}
 
-		System.out.println("TOTAl FAILED METHOD " + failedMethod.size());
+		System.out
+				.println("\n============================Failed Methods============================");
 
 		for (String a : failedMethod) {
-			System.out.println("\n Failed  Method : " + a + "  Size  "
-					+ failedMethod.size());
+			System.out.println("\n Failed  Method : " + a);
 		}
 
+		System.out
+				.println("\n============================Skipped Methods============================");
+
+		for (String a : skippedMethod) {
+			System.out.println("\n Skipped  Method : " + a);
+		}
+
+		System.out
+				.println("\n============================Suite Summary============================");
+
+		for (String a : suiteName) {
+
+			/* System.out.println("Total Test :" + testName.size()); */
+
+			System.out.println("Suite Name " + a);
+
+		}
+
+		System.out
+				.println("\n============================Group Details============================");
+
 		for (String a : testName) {
+
+			/* System.out.println("Total Test :" + testName.size()); */
 
 			System.out.println("Group Name " + testWithGroup.get(a)
 					+ " Method Name " + a);
@@ -159,7 +219,7 @@ public class ReportGenerator implements IReporter {
 
 			Collection<String> log = CustomLogger.myMultimap.get(a);
 
-			for (int i = 0; i < log.toArray().length; i++) {
+			for (int i = 0; i < log.size(); i++) {
 
 				System.out.println("log " + log.toArray()[i]);
 

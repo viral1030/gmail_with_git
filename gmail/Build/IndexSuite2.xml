@@ -20,7 +20,7 @@
 
 	<listeners>
 		<listener class-name="com.gmail.Init.CustomLogger" />
-		
+
 	</listeners>
 
 
@@ -28,7 +28,7 @@
 		<classes>
 			<class name="com.gmail.verifications.Index">
 				<methods>
-					<include name="passedMethod" />
+					<include name="loginMethod" />
 				</methods>
 			</class>
 		</classes>
@@ -39,7 +39,7 @@
 		<classes>
 			<class name="com.gmail.verifications.Index">
 				<methods>
-					<include name="failedMethod" />
+					<include name="signupMethod" />
 				</methods>
 			</class>
 		</classes>
@@ -51,7 +51,7 @@
 		<classes>
 			<class name="com.gmail.verifications.Index">
 				<methods>
-					<include name="failedMethod1" />
+					<include name="forgotPasswordMethod" />
 				</methods>
 			</class>
 		</classes>
