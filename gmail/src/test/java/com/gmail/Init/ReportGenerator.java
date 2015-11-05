@@ -27,6 +27,8 @@ public class ReportGenerator implements IReporter {
 	Map<String, Date> testStartTime = new HashMap<String, Date>();
 	Map<String, Date> testEndTime = new HashMap<String, Date>();
 
+	Map<String, String> testWithGroup = new HashMap<String, String>();
+
 	public void generateReport(List<XmlSuite> arg0, List<ISuite> arg1,
 			String arg2) {
 
@@ -45,11 +47,20 @@ public class ReportGenerator implements IReporter {
 				System.out.println("Group Name " + groupName[0].toString());
 
 				
-				System.out.println("Group Name " +context);
+			 /* System.out.println("Group Name " +context); */
+
+				testWithGroup.put(context.getName(), groupName[0].toString());
 				
 				
 				
 				
+				
+				
+				
+				
+				
+				
+
 				testName.add(context.getName());
 
 				suiteName.add(context.getSuite().getName());
@@ -124,6 +135,13 @@ public class ReportGenerator implements IReporter {
 		for (String a : failedMethod) {
 			System.out.println("\n Failed  Method : " + a + "  Size  "
 					+ failedMethod.size());
+		}
+
+		for (String a : testName) {
+
+			System.out.println("Group Name " + testWithGroup.get(a)
+					+ " Method Name " + a);
+
 		}
 
 		System.out

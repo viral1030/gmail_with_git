@@ -8,7 +8,7 @@
       <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<a href='../test-output/screenshots/1104191242853failedMethod1.png'>1104191242853failedMethod1.png</a>]]>
+      <![CDATA[<a href='../test-output/screenshots/1105171616926failedMethod.png'>1105171616926failedMethod.png</a>]]>
     </line>
     <line>
       <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
@@ -17,10 +17,10 @@
       <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
     </line>
     <line>
-      <![CDATA[<a href='../test-output/screenshots/1104191252157failedMethod.png'>1104191252157failedMethod.png</a>]]>
+      <![CDATA[<a href='../test-output/screenshots/1105171628400failedMethod1.png'>1105171628400failedMethod1.png</a>]]>
     </line>
   </reporter-output>
-  <suite name="Gmail" duration-ms="35043" started-at="2015-11-04T13:42:30Z" finished-at="2015-11-04T13:43:05Z">
+  <suite name="Gmail" duration-ms="54828" started-at="2015-11-05T11:45:53Z" finished-at="2015-11-05T11:46:47Z">
     <groups>
       <group name="functest">
         <method signature="Index.failedMethod1()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="failedMethod1" class="com.gmail.verifications.Index"/>
@@ -30,20 +30,20 @@
         <method signature="Index.failedMethod()[pri:0, instance:com.gmail.verifications.Index@17550481]" name="failedMethod" class="com.gmail.verifications.Index"/>
       </group> <!-- functest123 -->
     </groups>
-    <test name="Cancle Mail" duration-ms="22151" started-at="2015-11-04T13:42:30Z" finished-at="2015-11-04T13:42:52Z">
+    <test name="Cancle Mail" duration-ms="29081" started-at="2015-11-05T11:45:53Z" finished-at="2015-11-05T11:46:22Z">
       <class name="com.gmail.verifications.Index">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="fetchSuiteConfiguration" is-config="true" duration-ms="31" started-at="2015-11-04T19:12:30Z" finished-at="2015-11-04T19:12:30Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="fetchSuiteConfiguration" is-config="true" duration-ms="21" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:15:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@396a51ab]]>
+                <![CDATA[org.testng.TestRunner@5034c75a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="setUp" is-config="true" duration-ms="21530" started-at="2015-11-04T19:12:30Z" finished-at="2015-11-04T19:12:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="setUp" is-config="true" duration-ms="23550" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:16:16Z">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="failedMethod()[pri:0, instance:com.gmail.verifications.Index@17550481]" name="failedMethod" duration-ms="3" started-at="2015-11-04T19:12:52Z" finished-at="2015-11-04T19:12:52Z">
+        <test-method status="FAIL" signature="failedMethod()[pri:0, instance:com.gmail.verifications.Index@17550481]" name="failedMethod" duration-ms="238" started-at="2015-11-05T17:16:16Z" finished-at="2015-11-05T17:16:16Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -97,11 +97,11 @@
               <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
             </line>
             <line>
-              <![CDATA[<a href='../test-output/screenshots/1104191252157failedMethod.png'>1104191252157failedMethod.png</a>]]>
+              <![CDATA[<a href='../test-output/screenshots/1105171616926failedMethod.png'>1105171616926failedMethod.png</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- failedMethod -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="tearDown" is-config="true" duration-ms="585" started-at="2015-11-04T19:12:52Z" finished-at="2015-11-04T19:12:52Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@17550481]" name="tearDown" is-config="true" duration-ms="5157" started-at="2015-11-05T17:16:16Z" finished-at="2015-11-05T17:16:22Z">
           <params>
             <param index="0">
               <value>
@@ -114,20 +114,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.gmail.verifications.Index -->
     </test> <!-- Cancle Mail -->
-    <test name="Sending mail" duration-ms="35043" started-at="2015-11-04T13:42:30Z" finished-at="2015-11-04T13:43:05Z">
+    <test name="Sending mail" duration-ms="54828" started-at="2015-11-05T11:45:53Z" finished-at="2015-11-05T11:46:47Z">
       <class name="com.gmail.verifications.Index">
-        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="31" started-at="2015-11-04T19:12:30Z" finished-at="2015-11-04T19:12:30Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="fetchSuiteConfiguration" is-config="true" duration-ms="24" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:15:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5034c75a]]>
+                <![CDATA[org.testng.TestRunner@396a51ab]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="setUp" is-config="true" duration-ms="12210" started-at="2015-11-04T19:12:30Z" finished-at="2015-11-04T19:12:42Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="setUp" is-config="true" duration-ms="35352" started-at="2015-11-05T17:15:53Z" finished-at="2015-11-05T17:16:28Z">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="failedMethod1()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="failedMethod1" duration-ms="19" started-at="2015-11-04T19:12:42Z" finished-at="2015-11-04T19:12:42Z">
+        <test-method status="FAIL" signature="failedMethod1()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="failedMethod1" duration-ms="1" started-at="2015-11-05T17:16:28Z" finished-at="2015-11-05T17:16:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -181,11 +181,11 @@
               <![CDATA[<br><Strong><font color=#FF0000>--Failed</font></strong>]]>
             </line>
             <line>
-              <![CDATA[<a href='../test-output/screenshots/1104191242853failedMethod1.png'>1104191242853failedMethod1.png</a>]]>
+              <![CDATA[<a href='../test-output/screenshots/1105171628400failedMethod1.png'>1105171628400failedMethod1.png</a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- failedMethod1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="tearDown" is-config="true" duration-ms="1062" started-at="2015-11-04T19:12:42Z" finished-at="2015-11-04T19:12:43Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="tearDown" is-config="true" duration-ms="1216" started-at="2015-11-05T17:16:28Z" finished-at="2015-11-05T17:16:29Z">
           <params>
             <param index="0">
               <value>
@@ -196,7 +196,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="setUp" is-config="true" duration-ms="16323" started-at="2015-11-04T19:12:43Z" finished-at="2015-11-04T19:13:00Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="setUp" is-config="true" duration-ms="12882" started-at="2015-11-05T17:16:29Z" finished-at="2015-11-05T17:16:42Z">
           <params>
             <param index="0">
               <value>
@@ -207,11 +207,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="passedMethod()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="passedMethod" duration-ms="5001" started-at="2015-11-04T19:13:00Z" finished-at="2015-11-04T19:13:05Z">
+        <test-method status="PASS" signature="passedMethod()[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="passedMethod" duration-ms="5002" started-at="2015-11-05T17:16:42Z" finished-at="2015-11-05T17:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passedMethod -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="tearDown" is-config="true" duration-ms="386" started-at="2015-11-04T19:13:05Z" finished-at="2015-11-04T19:13:05Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.gmail.verifications.Index@96532d6]" name="tearDown" is-config="true" duration-ms="325" started-at="2015-11-05T17:16:47Z" finished-at="2015-11-05T17:16:47Z">
           <params>
             <param index="0">
               <value>
